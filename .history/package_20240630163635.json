@@ -1,5 +1,5 @@
 {
-  "name": "corinna-ai",
+  "name": "helpdesk-ai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "4.29.12",
-    "@prisma/client": "^5.16.1",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.399.0",
-    "next": "14.2.4",
-    "prisma": "^5.16.1",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "next": "14.2.4"
   },
   "devDependencies": {
     "typescript": "^5",
