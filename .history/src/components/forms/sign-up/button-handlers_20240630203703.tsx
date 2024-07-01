@@ -1,0 +1,15 @@
+'use Client'
+
+import React from 'react'
+
+type Props = {}
+
+const ButtonHandler = (props: Props) => {
+  const { setCurrentStep, setOTP } = useAuthContextHook()
+
+  return (
+    <div>ButtonHandler</div>
+  )
+}
+
+export default ButtonHandler
