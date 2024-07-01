@@ -11,7 +11,6 @@ const SignUp = (props: Props) => {
           <SignUpFormProvider>
             <div className='flex flex-col gap-3'>
               <RegistrationFormStep/>
-              <ButtonHandler/>
             </div>
           </SignUpFormProvider>
         </div> 

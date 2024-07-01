@@ -10,8 +10,7 @@ const SignUp = (props: Props) => {
         <div className='flex flex-col h-full gap-3'>
           <SignUpFormProvider>
             <div className='flex flex-col gap-3'>
-              <RegistrationFormStep/>
-              <ButtonHandler/>
+              <RegistrationFormStep>
             </div>
           </SignUpFormProvider>
         </div> 
